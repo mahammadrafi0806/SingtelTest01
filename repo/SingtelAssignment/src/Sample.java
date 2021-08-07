@@ -16,27 +16,6 @@ import com.singtel.assessment.model.Shark;
 
 public class Sample {
 
-	public static void main(String[] args) {
-
-		 Animal[] animals = new Animal[]{
-	                new Bird(),
-	                new Duck(),
-	                new Chicken(),
-	                new Rooster(),
-	                new Parrot(),
-	                new Fish(),
-	                new Shark(),
-	                new Clownfish(),
-	                new Dolphin(),
-	                new Frog(),
-	                new Dog(),
-	                new Butterfly("butterfly"),
-	                new Butterfly("caterpillar"),
-	                new Cat()
-	        };
-	        AnimalsCount animalCount = new AnimalsCount(animals);
-	        System.out.println("Hi");
-
-	}
+	public static void main(String[] args) {}
 
 }
